@@ -20,4 +20,8 @@ public class ErurekaclientApplication {
     public String getName(){
         return "this is myname :"+port;
     }
+    @RequestMapping("/getMyClass")
+    public String getMyClass(){
+        return "this is myClass";
+    }
 }
